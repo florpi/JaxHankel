@@ -33,6 +33,6 @@ derivative = jacobian(get_pk)(5.)
 ## Install
 
 ```bash
-$ pip install -e .
+$ pip install JaxHankel
 ```
 
