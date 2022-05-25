@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 from os.path import abspath, dirname, join
 
 this_dir = abspath(dirname(__file__))
