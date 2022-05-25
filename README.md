@@ -13,7 +13,7 @@ from jax_fht.cosmology import FFTLog
 def xi(r, A=1.0):
     return A * jnp.exp(-(r ** 2))
     
-return FFTLog(num=1, log_r_min=-4.0, log_r_max=4.0)
+fftlog = FFTLog(num=1, log_r_min=-4.0, log_r_max=4.0)
 pk = fftlog.xi2pk(xi(fftlog.r))
 
 plt.loglog(fftlog.k, pk)
