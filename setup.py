@@ -9,7 +9,7 @@ setup(
     name='JaxHankel',
     author="Carolina Cuesta-Lazaro",
     author_email="carolina.cuesta-lazaro@durham.ac.uk",
-    version='0.1',
+    version='0.1.1',
     url='https://github.com/florpi/JaxHankel',
     packages=['jax_fht'],
     license='Creative Commons Attribution-Noncommercial-Share Alike license',
